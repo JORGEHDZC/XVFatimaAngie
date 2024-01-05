@@ -1281,7 +1281,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
 .counter_bg {
-  background-image: url(../img/countdown_banner.jpg);
+  background-image: url(../img/banner/banner\ 1.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
@@ -1366,17 +1366,17 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
 .program_bg_1 {
-  background-image: url(../img/program_details/1.png);
+  background-image: url(../img/banner/banner\ 1.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
 .program_bg_2 {
-  background-image: url(../img/program_details/2.png);
+  background-image: url(../img/banner/banner\ 1.jpg);
 }
 
 /* line 7, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
 .program_bg_3 {
-  background-image: url(../img/program_details/3.png);
+  background-image: url(../img/banner/banner\ 1.jpg);
 }
 
 /* line 10, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
@@ -1788,6 +1788,32 @@ h3 {
   content: "";
   bottom: -10px;
   opacity: 0.2;
+}
+
+/* line 78, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
+.love_story_area .weding_time_line .single_time_no_line {
+  padding-bottom: 48px;
+  padding-top: 45px;
+  position: relative;
+}
+
+.love_story_area .weding_time_line .single_time_no_line::before {
+  position: absolute;
+  height: 40px;
+  width: 1px;
+  background: #fff8f3;
+  left: 50%;
+  content: "";
+  bottom: -10px;
+  opacity: 0.2;
+}
+
+/* line 98, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
+.love_story_area .weding_time_line .single_time_no_line p {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+  color: #c78665;
 }
 
 /* color-time-line */
