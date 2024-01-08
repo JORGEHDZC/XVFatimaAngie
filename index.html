@@ -163,13 +163,9 @@
               <span>Mis XV</span>
               <h3>Angie</h3>
               <p>
-                Many variations of passages of Lorem Ipsum available, but the
-                majority have suffered alteration in some content of a page when
-                looking at its layout. The point of using Lorem Ipsum is that it
-                has a more-or-less normal distribution of letters, as opposed to
-                using Content here content here, making it look like readable
-                English. Many desktop publishing packages and web page editors
-                now use.
+                Me gusta bailar, soy muy creativa, me gusta dormir mucho,
+                disfruto ver el fútbol, escuchar musica es algo de lo que más
+                hago y más me gusta, amo las flores.
               </p>
             </div>
           </div>
@@ -331,15 +327,25 @@
                         <h3>Reserva el día</h3>
                         <p>Confirma antes del 25 de Enero</p>
                       </div>
-                      <form action="#">
+                      <form
+                        action="https://formspree.io/f/mleqeakg"
+                        method="post"
+                      >
                         <div class="row">
                           <div class="col-xl-12">
-                            <input type="text" placeholder="Tu Nombre" />
+                            <input
+                              type="text"
+                              placeholder="Tu Nombre"
+                              name="Nombre"
+                              required
+                            />
                           </div>
                           <div class="col-xl-12">
                             <select
                               class="form-select wide"
                               id="default-select"
+                              name="Invitados"
+                              required
                               class=""
                             >
                               <option data-display="1 Invitado">
@@ -353,6 +359,8 @@
                           <div class="col-xl-12">
                             <textarea
                               placeholder="Escribe aquí algo bonito para mi 😊"
+                              name="Mensaje"
+                              required
                             ></textarea>
                           </div>
                           <div class="col-xl-12">
