@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Apricot"; /* Nombre de la fuente */
-  src: url("../fonts/Apricot.otf") format("opentype"); /* Ruta a tu fuente */
+  src: url("/fonts/Apricot.otf") format("opentype"); /* Ruta a tu fuente */
 }
 
 .flex-center-start {
