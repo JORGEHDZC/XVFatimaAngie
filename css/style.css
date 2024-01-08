@@ -1006,7 +1006,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/xv_años_banner.webp);
+  background-image: url(../img/session/portada.jpg);
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
@@ -1684,6 +1684,10 @@ h3 {
 /* line 16, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .single_lover_story .story_thumb img {
   width: 100%;
+}
+
+.rounded-image {
+  border-radius: 50%;
 }
 
 /* line 19, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
